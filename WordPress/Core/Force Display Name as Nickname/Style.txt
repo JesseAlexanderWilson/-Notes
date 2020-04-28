@@ -1,0 +1,7 @@
+dd_action( 'wp_head', function () { ?>
+    <style>
+
+        /* write your CSS code here */
+
+    </style>
+<?php } );

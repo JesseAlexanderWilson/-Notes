@@ -1,0 +1,10 @@
+1. Turn off **MAMP Server**.
+1. Close **MAMP**.
+1. Delete root "appsolute" folder.
+File path: `MacSSD > Library > Application Support > appsolute`
+1. Delete user "appsolute" folder.
+File path: `MacSSD > Users > [user] > Library > Application Support > appsolute`
+1. Delete **MAMP** and **MAMP Pro** app from Applications Folder.
+1. Delete **MAMP** from Dock.
+1. Reinstall **MAMP**.
+1. Turn on **MAMP Server**.

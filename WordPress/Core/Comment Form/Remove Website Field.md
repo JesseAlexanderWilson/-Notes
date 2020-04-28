@@ -1,0 +1,3 @@
+```php
+add_filter('comment_form_field_url', '__return_false');
+```

@@ -1,0 +1,7 @@
+add_filter( 'tiny_mce_before_init', function( $init ) {
+	$init['forced_root_block'] = false;
+	$init['force_br_newlines'] = true;
+	$init['force_p_newlines'] = false;
+	$init['convert_newlines_to_brs'] = true;
+	return $init;
+} );

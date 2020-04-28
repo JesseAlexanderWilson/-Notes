@@ -1,0 +1,44 @@
+add_action( 'wp_head', function () { ?>
+    <style>
+
+        @media (min-width: 769px) {
+            body[class*="wpdiscuz"] #wpcomm .wpd-form-row .wpdiscuz-item .wpd-field-icon {
+                top: 17px;
+            }
+        }
+
+        body[class*="wpdiscuz"] .ast-page-builder-template .comments-area {
+            padding-left: 0;
+            padding-right: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        body[class*="wpdiscuz"] .comments-area {
+            border-top: 0;
+            margin-top: 0;
+        }
+
+        body[class*="wpdiscuz"] #wpcomm {
+            border-top: 0;
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        body[class*="wpdiscuz"] #wpcomm .wpdiscuz-form-top-bar {
+            display: none;
+        }
+
+        body[class*="wpdiscuz"] #wpcomm .wc-comment-label,
+        body[class*="wpdiscuz"] #wpcomm .avatar {
+            box-shadow: none;
+        }
+
+        body[class*="wpdiscuz"] #wpcomm .wc-blog-post_author > .wc-comment-left .wc-comment-label,
+        body[class*="wpdiscuz"] #wpcomm .wc-blog-guest > .wc-comment-left .wc-comment-label {
+            border-bottom: none;
+        }
+
+    </style>
+<?php } );

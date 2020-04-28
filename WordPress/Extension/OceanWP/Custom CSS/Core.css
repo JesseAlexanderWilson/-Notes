@@ -1,0 +1,28 @@
+
+/* Align navigation's icons */
+.sidr-class-icon,
+.navigation li a i.before {
+	width: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+/* Move Scroll Top icon above verticle header. */
+#scroll-top {
+	z-index: 3001;
+}
+
+/* Align verticle header's toggle button to top */
+#site-header.vertical-header .vertical-toggle {
+	top: 0px;
+}
+
+/* Prevent sticky top bar's opacity on scroll */
+.is-sticky #top-bar-wrap {
+	opacity: 1;
+}
+
+/* Fix video embed padding. */
+.wp-block-embed__wrapper:before {
+    padding-top: 0 !important;
+}

@@ -1,0 +1,10 @@
+<?php
+add_action( 'admin_head', function () { ?>
+    <style>
+
+        .fixed .column-search_exclude div {
+            text-align: left;
+        }
+
+    </style>
+<?php } );

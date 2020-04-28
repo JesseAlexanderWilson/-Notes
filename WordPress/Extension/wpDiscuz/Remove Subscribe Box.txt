@@ -1,0 +1,9 @@
+<?phpadd_action( 'wp_head', function () { ?>
+    <style>
+
+        .wpdiscuz-front-actions {
+            display: none;
+        }
+
+    </style>
+<?php } );

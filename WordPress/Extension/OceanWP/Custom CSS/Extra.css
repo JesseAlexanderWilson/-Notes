@@ -1,0 +1,4 @@
+/* Remove verticle header's top padding */
+#site-header.vertical-header #site-header-inner {
+	padding: 0 0;
+}

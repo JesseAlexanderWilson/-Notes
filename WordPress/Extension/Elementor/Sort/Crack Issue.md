@@ -1,0 +1,1 @@
+The premium Elementor Library templates WILL NOT WORK, because the data for the templates are fetched from the Elementor API.

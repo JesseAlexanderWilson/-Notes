@@ -1,0 +1,1 @@
+https://apple.stackexchange.com/questions/116815/show-results-of-automator-terminal-command

@@ -1,0 +1,10 @@
+<?php
+add_action( 'wp_head', function () { ?>
+    <style>
+
+        #wpcomm .wpd-form-row .wc_website-wrapper {
+            display: none;
+        }
+
+    </style>
+<?php } );
