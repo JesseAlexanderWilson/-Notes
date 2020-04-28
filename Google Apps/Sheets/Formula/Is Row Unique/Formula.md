@@ -1,5 +1,5 @@
 #  Negative Even
-```JavaScript
+``` javascript
 =ARRAYFORMULA(
     IF(
         ISBLANK( A2:A100 ),
@@ -11,3 +11,4 @@
     )
 )
 ```
+

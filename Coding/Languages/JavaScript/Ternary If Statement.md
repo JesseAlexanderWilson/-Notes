@@ -7,22 +7,21 @@ modified: '2019-10-21T18:35:41.667Z'
 
 ## Long Form
 
-``` JavaScript
+``` javascript
 function largest( a, b ) {
-  if ( a > b ) {
-    return a;
-  } else {
-    return = b;
-  }
+    if ( a > b ) {
+    	return a;
+    }
+    else {
+    	return = b;
+    }
 }
-
 ```
 
 ## Ternary
 
-``` js
+``` javascript
 function largest( a, b ) {
-  return ( a > b ) ? a : b;
+  	return ( a > b ) ? a : b;
 }
-
 ```

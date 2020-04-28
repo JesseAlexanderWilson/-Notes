@@ -5,28 +5,30 @@ created: '2019-10-21T18:34:21.177Z'
 modified: '2019-10-21T18:34:23.667Z'
 ---
 
-## Triggers
+# Create Menu with Triggers
 
-``` js
-//Insert code below and then run function 'My_setTriggers'.
+Insert code below and then run function **My_setTriggers**.
 
+## Triggers.gs
+
+``` javascript
 //------------------------------------------------------------------------------
 // Data Level
 //------------------------------------------------------------------------------
 
-var TRIGGER_DB = {
-  BUILD: {
-    FOR_DOCUMENT: "forDocument",
-    FOR_FORM: "forForm",
-    FOR_SPREADSHEET: "forSpreadsheet",
-    FOR_USER_CALENDAR: "forUserCalendar"
-  },
-  FIRE: {
-    ON_CHANGE: "onChange",
-    ON_EDIT: "onEdit",
-    ON_FORM_SUBMIT: "formSubmit",
-    ON_OPEN: "onOpen"
-  }
+let TRIGGER_DB = {
+    BUILD: {
+    	FOR_DOCUMENT: "forDocument",
+    	FOR_FORM: "forForm",
+    	FOR_SPREADSHEET: "forSpreadsheet",
+    	FOR_USER_CALENDAR: "forUserCalendar"
+	},
+    FIRE: {
+        ON_CHANGE: "onChange",
+        ON_EDIT: "onEdit",
+        ON_FORM_SUBMIT: "formSubmit",
+        ON_OPEN: "onOpen"
+    }
 }
 
 Object.freeze( TRIGGER_DB );
@@ -36,14 +38,14 @@ Object.freeze( TRIGGER_DB );
 //------------------------------------------------------------------------------
 
 function MY_setTriggers() {
-  MY_deleteTriggers();
+    MY_deleteTriggers();
 
-  MY_createTrigger(
-    "MY_onOpenCreateMenu",
-    "1tNsjrUMJsOLJkWv0Kh-6V8yLBnFEpMQE1GiEokowV0k",
-    TRIGGER_DB.BUILD.FOR_SPREADSHEET,
-    TRIGGER_DB.FIRE.ON_OPEN
-  );
+    MY_createTrigger(
+    	"MY_onOpenCreateMenu",
+    	"1tNsjrUMJsOLJkWv0Kh-6V8yLBnFEpMQE1GiEokowV0k",
+    	TRIGGER_DB.BUILD.FOR_SPREADSHEET,
+    	TRIGGER_DB.FIRE.ON_OPEN
+    );
 }
 
 //------------------------------------------------------------------------------
@@ -51,31 +53,29 @@ function MY_setTriggers() {
 //------------------------------------------------------------------------------
 
 function MY_deleteTriggers() {
-  var triggers = ScriptApp.getProjectTriggers();
+	let triggers = ScriptApp.getProjectTriggers();
 
-  for ( var i = 0; i < triggers.length; i++ ) {
-    ScriptApp.deleteTrigger( triggers[ i ] );
-  }
+    for ( let i = 0; i < triggers.length; i++ ) {
+    	ScriptApp.deleteTrigger( triggers[ i ] );
+    }
 }
 
 //------------------------------------------------------------------------------
 
 function MY_createTrigger( name, key, buildFor, fireOn ) {
-  ScriptApp
+	ScriptApp
     .newTrigger( name )[ buildFor ]( key )[ fireOn ]()
     .create();
 }
-
 ```
 
-## Custom Menu Item
+## Custom Menu.gs
 
-``` js
+``` javascript
 function OnOpenCreateMenu() {
-
-    var menu;
-    var subMenu;
-    var ui = SpreadsheetApp.getUi();
+    let menu;
+    let subMenu;
+    let ui = SpreadsheetApp.getUi();
 
     // Menu
     menu = ui.createMenu( 'Menu_Name' )
@@ -109,5 +109,5 @@ function OnOpenCreateMenu() {
     // Menu 2
     menu.addItem( 'Menu_Item_Name', 'Function_Name' );
     menu.addToUi();
-
+}
 ```
