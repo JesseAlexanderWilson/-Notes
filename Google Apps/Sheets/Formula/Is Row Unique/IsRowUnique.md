@@ -4,13 +4,6 @@
 A3:A100
 ```
 
-*   [Negative Even](##Negative-Even)
-*   [Negative Odd](##Negative-Odd)
-*   [Neutral Even](##Neutral-Even)
-*   [Neutral Odd](##Neutral-Odd)
-*   [Positive Even](##Positive-Even)
-*   [Positive Odd](##Positive-Odd)
-
 ##  Negative Even
 ```JavaScript
 /* Format rules */
@@ -24,7 +17,6 @@ A3:A100
 /* Formatting Style */
 #f68ab0
 ```
-[Top](#IsRowUnique)
 
 ##  Negative Odd
 ```JavaScript
