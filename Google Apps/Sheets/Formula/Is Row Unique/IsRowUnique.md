@@ -1,5 +1,9 @@
 #  IsRowUnique
-## TOC
+```JavaScript
+/* Apply to range */
+A3:A100
+```
+
 *   [Negative Even](##Negative-Even)
 *   [Negative Odd](##Negative-Odd)
 *   [Neutral Even](##Neutral-Even)
@@ -9,9 +13,6 @@
 
 ##  Negative Even
 ```JavaScript
-/* Apply to range */
-A3:A100
-
 /* Format rules */
 /* Custom formula is */
 =AND(
@@ -23,12 +24,10 @@ A3:A100
 /* Formatting Style */
 #f68ab0
 ```
+[Top](#IsRowUnique)
 
 ##  Negative Odd
 ```JavaScript
-/* Apply to range */
-A3:A100
-
 /* Format rules */
 /* Custom formula is */
 =AND(
@@ -43,9 +42,6 @@ A3:A100
 
 ##  Neutral Even
 ```JavaScript
-/* Apply to range */
-A3:A100
-
 /* Format rules */
 /* Custom formula is */
 =AND(
@@ -60,9 +56,6 @@ A3:A100
 
 ##  Neutral Odd
 ```JavaScript
-/* Apply to range */
-A3:A100
-
 /* Format rules */
 /* Custom formula is */
 =AND(
@@ -77,9 +70,6 @@ A3:A100
 
 ##  Positive Even
 ```JavaScript
-/* Apply to range */
-A3:A100
-
 /* Format rules */
 /* Custom formula is */
 =AND(
@@ -94,9 +84,6 @@ A3:A100
 
 ##  Positive Odd
 ```JavaScript
-/* Apply to range */
-A3:A100
-
 /* Format rules */
 /* Custom formula is */
 =AND(

@@ -1,4 +1,5 @@
-```js
+# UI
+```JavaScript
 function MY_onOpenCreateMenu() {
   SpreadsheetApp
   .getUi()

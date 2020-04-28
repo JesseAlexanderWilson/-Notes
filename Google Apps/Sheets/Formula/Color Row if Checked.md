@@ -1,15 +1,12 @@
-# Apply to range
+#  Color Row if Checked
 ```JavaScript
+/* Apply to range */
 A3:Z100
-```
-# Format rules
 
-Custom formula is
-
-```JavaScript
+/* Format rules */
+/* Custom formula is */
 =$A1=TRUE
-```
-# Formatting style
-```JavaScript
+
+/* Formatting Style */
 #f4c7c3
 ```

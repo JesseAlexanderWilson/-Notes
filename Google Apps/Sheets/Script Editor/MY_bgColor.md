@@ -1,4 +1,5 @@
-```js
+# MY_bgColor
+```JavaScript
 function MY_bgColor() {
   var ss    = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = ss.getActiveSheet();
