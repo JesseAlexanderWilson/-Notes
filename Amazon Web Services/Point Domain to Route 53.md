@@ -1,0 +1,1 @@
+https://serverfault.com/questions/607141/pointing-a-domain-to-aws-route-53

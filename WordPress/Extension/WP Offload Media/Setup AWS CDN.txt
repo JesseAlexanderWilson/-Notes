@@ -1,0 +1,38 @@
+# Setup AWS CDN
+
+## Create IAM User
+
+https://deliciousbrains.com/wp-offload-media/doc/amazon-s3-quick-start-guide/
+
+## Setup A3 Bucket
+
+- Go to [A3](https://s3.console.aws.amazon.com/s3/home?region=us-east-1)
+- Name bucket `cdn.[domain].[tld]`
+- Set `Region` to `US East (N. Virginia) us-east-1`
+- Set `Acces` to `public`
+
+## Setup Cloudfront Distribution
+
+Go to [CloudFront](https://console.aws.amazon.com/cloudfront/home?region=us-east-1)
+
+https://deliciousbrains.com/wp-offload-media/doc/cloudfront-setup/
+
+## Setup Certifcate
+
+Go to [Certificate Manager](https://console.aws.amazon.com/acm/home?region=us-east-1#/)
+
+https://forums.aws.amazon.com/thread.jspa?threadID=284781
+
+## Update DNS
+
+- Create CNAME
+- Set CloudFront Distributions Alternate Domain Name to `Domain Name`
+- `[domain name].cloudfront.net` point `cdn.[domain].[tld]`
+
+## Update Cloudfront Distribution
+
+https://deliciousbrains.com/wp-offload-media/doc/custom-domain-https-cloudfront/
+
+## Setup IAM User
+
+https://deliciousbrains.com/wp-offload-media/doc/amazon-s3-quick-start-guide/#save-access-keys
