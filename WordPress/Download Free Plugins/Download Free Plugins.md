@@ -36,6 +36,3 @@ http://nobuna.com/wp-admin/admin-ajax.php?action=nbdownload&pid=3587&ver=5.8.9
 ```
 
 Paste the url into a **browser** and press `enter`. The plugin will then automatically download.
-
-
-

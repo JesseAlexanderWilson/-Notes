@@ -1,0 +1,6 @@
+Concatination Shorthand
+
+```
+&
+```
+

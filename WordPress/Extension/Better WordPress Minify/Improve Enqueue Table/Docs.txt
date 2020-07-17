@@ -1,3 +1,0 @@
-[Better Wordpress Minify] Improve Enqueue Table
-
-Only run in administration area

@@ -1,5 +1,14 @@
-add_action( 'admin_head', function () { ?>
+# [Better WordPress Minify] Improve Enqueued Files Table UX
+```php
+<?php
+  add_action( 'admin_head', function () { ?>
     <style>
+    
+				/* Set table height */
+        .bwp-minify-table-scroller {
+    				height: 480px;
+        }
+    
 
         /* Widen script src column */
         .bwp-minify_page_bwp_minify_manage .bwp-minify-detector-table td input {
@@ -39,3 +48,16 @@ add_action( 'admin_head', function () { ?>
 
     </style>
 <?php } );
+```
+
+- [ ] Run snippet everywhere
+- [x] Only run in administration area
+- [ ] Only run on site front-end
+- [ ] Only run once
+
+### Priority
+10
+
+## Description
+
+## Tags

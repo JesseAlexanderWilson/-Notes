@@ -1,0 +1,1 @@
+https://computers.tutsplus.com/tutorials/how-to-reduce-the-size-of-your-pdf-without-compromising-image-quality--cms-21698

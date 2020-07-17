@@ -1,0 +1,1 @@
+https://setapp.com/how-to/simple-way-to-zip-unzip-files-on-mac
