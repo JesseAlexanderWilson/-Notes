@@ -5,7 +5,7 @@ created: '2019-10-21T18:34:13.015Z'
 modified: '2019-10-21T18:34:16.451Z'
 ---
 
-## Create Front End Formula
+## Front End Formula
 
 ``` js
 /**

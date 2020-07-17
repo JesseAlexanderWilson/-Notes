@@ -9,24 +9,22 @@ modified: '2019-10-21T18:35:11.842Z'
 
 ### Code Explanation
 
-``` js
+``` javascript
 for each( var instance in list ) {
-  //do stuff;
+	//do stuff;
 }
-
 ```
 
 ### Working Example
 
-``` js
+``` javascript
 function My_logFunction() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sheet = ss.getSheetByName( 'sheetname' );
-  var range = sheet.getDataRange();
-  var values = range.getValues();
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    var sheet = ss.getSheetByName( 'sheetname' );
+    var range = sheet.getDataRange();
+    var values = range.getValues();
 
-  for each( var v in values ) {
-    Logger.log( v );
-  }
-
+    for each( var v in values ) {
+    	Logger.log( v );
+    }
 ```
