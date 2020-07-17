@@ -19,7 +19,7 @@ function onOpen() {
 /** ----------------------------------------------------------------------------
 * On Open Create Menu
 */
-function OnOpenCreateMenu() {
+function MY_onOpenCreateMenu() {
     let menu;
     let subMenu;
     let ui = SpreadsheetApp.getUi();

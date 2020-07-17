@@ -1,0 +1,32 @@
+## Regex Replace
+
+### Code Explanation
+
+``` javascript
+var regex = new RegExp( 'expression' );
+
+for ( var object in range ) {
+    object = object.toString()
+    object = object.replace( regex, 'expression' );
+    Logger.log( object );
+}
+```
+
+### Working Example
+
+``` javascript
+function My_regexReplace() {
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    var input = ss.getActiveSheet();
+    var range = input.getDataRange();
+    var values = range.getValues();
+
+    var regex = new RegExp( ' - ([0-9])', 'g' );
+
+    for ( var v in values ) {
+        v = v.toString()
+        v = v.replace( regex, '\|||$1' );
+        Logger.log( v );
+    }
+}
+```
