@@ -12,7 +12,7 @@ modified: '2019-10-21T18:35:16.164Z'
 ``` javascript
 var regex = new RegExp( 'expression' );
 
-for each( var object in range ) {
+for ( var object in range ) {
     object = object.toString()
     object = object.replace( regex, 'expression' );
     Logger.log( object );
@@ -30,7 +30,7 @@ function My_regexReplace() {
 
     var regex = new RegExp( ' - ([0-9])', 'g' );
 
-    for each( var v in values ) {
+    for ( var v in values ) {
         v = v.toString()
         v = v.replace( regex, '\|||$1' );
         Logger.log( v );

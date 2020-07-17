@@ -1,10 +1,3 @@
----
-tags: [Notebooks/Google_Sheets/Libraries/Runtime]
-title: Config
-created: '2019-10-21T09:52:49.914Z'
-modified: '2019-10-21T10:15:07.419Z'
----
-
 ``` js
 /** ----------------------------------------------------------------------------
  * Run Function

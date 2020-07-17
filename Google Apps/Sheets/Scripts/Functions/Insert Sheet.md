@@ -1,10 +1,3 @@
----
-tags: [Notebooks/Google_Sheets/Standalone]
-title: Insert Sheet
-created: '2019-10-21T18:34:56.529Z'
-modified: '2019-10-21T18:34:57.619Z'
----
-
 ## Insert Sheet
 
 ``` javascript
